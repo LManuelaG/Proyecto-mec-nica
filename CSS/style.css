@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #3a3d47;
+}
+.contenedor{
+    width: 1200px;
+    background-color: white;
+    margin:10px auto;
+}
+.header{
+    background-color:#1551a1;
+    overflow: hidden;
+}
+.logo{
+    float:left;
+    margin: 20px 50px;
+}
+.img_logo{
+    width: 300px;
+}
+.menu{
+    float:right;
+    margin: 27px 50px;
+}
+ul{
+    list-style:none;
+}
+li{
+    float: left;
+    border: 1px solid wheat;
+    padding: 15px;
+}
+li:hover{
+    background-color:rgb(15,15,95);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    font-size: 20px;
+}
+.banner_img{
+    width: 100%;
+}
+.titulo{
+    color: #ff7600;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.cards{
+    background-color: white;
+    overflow: hidden;
+}
+.card{
+    width: 380px;
+    height: 450px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    float: left;
+    margin:10px 0px 10px 13px;
+}
+.img{
+    background-color: #1551a1;
+}
+.img h2:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.img h2{
+    color: white;
+    text-align: center;
+    padding: 8px 0px;
+
+}
+.contenido{
+    text-align: justify;
+    padding: 10px;
+}
+.contenido button{
+    background-color: #1551a1;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 140px;
+    border-radius: 5px;
+
+}
+.contenido button:hover{
+    padding: 15px;
+    background-color: #0b3163;
+}
+.footer{
+    background-color: #0d2f5c;
+    overflow: hidden;
+
+}
+.uno{
+    float: left;
+    margin: 15x 15px;
+    text-align:left;
+    padding: 10px 10px;
+    float:left;
+    width: 500px;
+
+}
+.uno img{
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.redes{
+float:right;
+width: 500px;
+}
+.parrafo_footer{
+    color: white;
+    margin: 20px;
+}
+.Formulario{
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 500px;
+    height: 490px;
+    margin: 20px 350px 20px 350px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.tituloContacto{
+    color: #1551a1;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+    font-family:'Rubik Bubbles';
+    padding:5px ;
+}
+.subTitulo{
+    padding: 10px;
+}
+.fila{
+    width: 400px;
+    margin-left:50px;
+    overflow: hidden;
+    padding: 5px;
+}
+label{
+    float: left;
+    font-size: 17px;
+}
+input{
+    float: right;
+    width: 220px;
+    height: 25px;
+    border-radius: 5px;
+}
+textarea{
+    border-radius: 5px;
+}
+.btnEnviar{
+    text-align: center;
+    background-color: #1551a1;
+    padding: 10px;
+    color: white;
+    margin-left: 200px;
+    border-radius: 10px;
+    font-size: 17px;
+
+
+}
